@@ -1,97 +1,13 @@
+aid: qube-horizon
 name: Qube Horizon
-description: APIs for Qube Horizon platform providing project management, resource allocation, and analytics services
-image: https://qubehorizon.com/images/logo.png
-url: https://qubehorizon.com
+description: Qube Horizon is a platform providing project management, resource allocation, and analytics services.
+type: Index
+url: https://raw.githubusercontent.com/api-evangelist/qube-horizon/refs/heads/main/apis.yml
 created: '2024-01-15'
-modified: '2024-01-15'
-apis:
-- name: Qube Horizon Projects API
-  description: Manage projects, tasks, and workflows within Qube Horizon
-  image: https://qubehorizon.com/images/projects-api.png
-  humanURL: https://qubehorizon.com/products/projects
-  baseURL: https://api.qubehorizon.com/v1/projects
-  tags:
-  - projects
-  - tasks
-  - workflows
-  - management
-  properties:
-  - type: Documentation
-    url: https://docs.qubehorizon.com/api/projects
-  - type: OpenAPI
-    url: https://api.qubehorizon.com/v1/projects/openapi.json
-  - type: Authentication
-    url: https://docs.qubehorizon.com/api/authentication
-  contact:
-  - FN: API Support
-    email: api-support@qubehorizon.com
-    url: https://qubehorizon.com/support
-- name: Qube Horizon Resources API
-  description: Allocate and manage resources including team members, equipment, and budgets
-  image: https://qubehorizon.com/images/resources-api.png
-  humanURL: https://qubehorizon.com/products/resources
-  baseURL: https://api.qubehorizon.com/v1/resources
-  tags:
-  - resources
-  - allocation
-  - team
-  - budget
-  properties:
-  - type: Documentation
-    url: https://docs.qubehorizon.com/api/resources
-  - type: OpenAPI
-    url: https://api.qubehorizon.com/v1/resources/openapi.json
-  - type: Authentication
-    url: https://docs.qubehorizon.com/api/authentication
-  contact:
-  - FN: API Support
-    email: api-support@qubehorizon.com
-    url: https://qubehorizon.com/support
-- name: Qube Horizon Analytics API
-  description: Access analytics, reporting, and insights for projects and resources
-  image: https://qubehorizon.com/images/analytics-api.png
-  humanURL: https://qubehorizon.com/products/analytics
-  baseURL: https://api.qubehorizon.com/v1/analytics
-  tags:
-  - analytics
-  - reporting
-  - insights
-  - metrics
-  properties:
-  - type: Documentation
-    url: https://docs.qubehorizon.com/api/analytics
-  - type: OpenAPI
-    url: https://api.qubehorizon.com/v1/analytics/openapi.json
-  - type: Authentication
-    url: https://docs.qubehorizon.com/api/authentication
-  contact:
-  - FN: API Support
-    email: api-support@qubehorizon.com
-    url: https://qubehorizon.com/support
-common:
-- type: Getting Started
-  url: https://docs.qubehorizon.com/getting-started
-- type: Authentication
-  url: https://docs.qubehorizon.com/api/authentication
-- type: Rate Limits
-  url: https://docs.qubehorizon.com/api/rate-limits
-- type: SDKs
-  url: https://docs.qubehorizon.com/sdks
-- type: Status Page
-  url: https://status.qubehorizon.com
-- type: Terms of Service
-  url: https://qubehorizon.com/terms
-- type: Privacy Policy
-  url: https://qubehorizon.com/privacy
-- type: Support
-  url: https://qubehorizon.com/support
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis: []
+common: []
 maintainers:
-- FN: Qube Horizon API Team
-  email: api-team@qubehorizon.com
-  url: https://qubehorizon.com/about/api-team
-tags:
-- project management
-- resource planning
-- analytics
-- enterprise
-- SaaS
+  - FN: Kin Lane
+    email: kin@apievangelist.com
